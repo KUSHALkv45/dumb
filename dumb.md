@@ -28,3 +28,21 @@ ADDCOLUMNS(
 
 )
 - running total : rng tot = caluculate(totalsum,filter(table[col1] <= table[col1]) )
+
+---
+✅ Java Class Hierarchy
+
+LinkedList → implements → List, Queue, Deque
+
+So you get all deque methods:
+
+-addFirst()
+-addLast()
+-pollFirst()
+-pollLast()
+-peekFirst()
+-peekLast()
+-removeFirst()
+-removeLast()
+
+---
