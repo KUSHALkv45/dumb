@@ -36,13 +36,13 @@ LinkedList → implements → List, Queue, Deque
 
 So you get all deque methods:
 
--addFirst()
--addLast()
--pollFirst()
--pollLast()
--peekFirst()
--peekLast()
--removeFirst()
--removeLast()
-
+- addFirst()
+- addLast()
+- pollFirst()
+- pollLast()
+- peekFirst()
+- peekLast()
+- removeFirst()
+- removeLast()
+- for size() it uses internal counter and returns size is O(1)
 ---
