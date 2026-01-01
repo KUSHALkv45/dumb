@@ -46,3 +46,8 @@ So you get all deque methods:
 - removeLast()
 - for size() it uses internal counter and returns size is O(1)
 ---
+
+```python
+   result = ms_employee_salary.loc[ms_employee_salary.groupby('id')['salary'].idxmax()]   # locate the max of a grouped and print remaining
+ ```
+---
